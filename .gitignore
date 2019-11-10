@@ -25,13 +25,7 @@
 hs_err_pid*
 
 .gitignore
-.idea/compiler.xml
-.idea/copyright/
-.idea/dictionaries/
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
 codingbat.iml
 out/
 /.idea/
+/out/
