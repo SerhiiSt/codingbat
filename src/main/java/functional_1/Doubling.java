@@ -11,7 +11,7 @@ import java.util.List;
  * doubling([]) → []
  */
 public class Doubling {
-    public static List<Integer> doubling(List<Integer> nums) {
+    public List<Integer> doubling(List<Integer> nums) {
         nums.replaceAll(n -> n * 2);
         return nums;
     }
