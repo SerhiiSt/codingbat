@@ -15,14 +15,10 @@ import static java.util.stream.Collectors.joining;
  * frontTimes("Abc", 3) → "AbcAbcAbc"
  */
 public class FrontTimes1 {
-    public static String frontTimes(String str, int n) {
+    public String frontTimes(String str, int n) {
         if (str.length()>=3){
            return Stream.generate(() -> str.substring(0,3)).limit(n).collect(joining());
         }
         return Stream.generate(() -> str).limit(n).collect(joining());
-    }
-
-    public static void main(String[] args) {
-        System.out.println(frontTimes("Ab", 4));
     }
 }
