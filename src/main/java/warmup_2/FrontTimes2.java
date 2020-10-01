@@ -1,4 +1,4 @@
-package warmup2;
+package warmup_2;
 
 /**
  * Given a string and a non-negative int n, we'll say that the front

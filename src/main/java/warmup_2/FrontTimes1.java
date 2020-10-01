@@ -1,6 +1,7 @@
-package warmup2;
+package warmup_2;
 
 import java.util.stream.Stream;
+
 import static java.util.stream.Collectors.joining;
 
 /**
